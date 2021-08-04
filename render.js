@@ -6,7 +6,7 @@ function render() {
         return;
     }
     clearScreen();
-    speedDisplay.innerHTML = "Tốc Độ: " + car.speed + " (Q: tăng tốc, E: giảm tốc)";
+    speedDisplay.innerHTML = "Tốc Độ: " + car.speed + " (Shift: tăng tốc, Space: giảm tốc)";
     gameScore += 1;
     scoreDisplay.innerText = "Điểm: " + gameScore ;
     //không cho người chơi vượt qua màn hình chơi
